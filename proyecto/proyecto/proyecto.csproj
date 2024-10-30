@@ -98,10 +98,10 @@
       <DependentUpon>Eco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fisica.resx">
-      <DependentUpon>Fisica.cs</DependentUpon>
+      <DependentUpon>Fisica.Designer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fisica2.resx">
-      <DependentUpon>Fisica2.cs</DependentUpon>
+      <DependentUpon>Fisica2.Designer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fisica3.resx">
       <DependentUpon>Fisica3.cs</DependentUpon>

@@ -55,17 +55,19 @@ namespace proyecto
 			// 
 			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(23, 9);
+			this.label1.Location = new System.Drawing.Point(34, 14);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(231, 62);
+			this.label1.Size = new System.Drawing.Size(346, 94);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Primera Ley de Newton";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(12, 104);
+			this.label2.Location = new System.Drawing.Point(18, 160);
+			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(242, 72);
+			this.label2.Size = new System.Drawing.Size(363, 111);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "La primera ley postula que un cuerpo permanecerá en reposo o en movimiento recto " +
 			"con una velocidad constante, a menos que se aplique una fuerza externa.";
@@ -73,9 +75,10 @@ namespace proyecto
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(12, 167);
+			this.label3.Location = new System.Drawing.Point(18, 257);
+			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(242, 73);
+			this.label3.Size = new System.Drawing.Size(363, 112);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "No es posible que un cuerpo cambie su estado inicial (sea de reposo o movimiento)" +
 			" a menos que intervengan una o varias fuerzas.";
@@ -84,17 +87,20 @@ namespace proyecto
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(66, 306);
+			this.pictureBox1.Location = new System.Drawing.Point(99, 471);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(144, 51);
+			this.pictureBox1.Size = new System.Drawing.Size(204, 59);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 3;
 			this.pictureBox1.TabStop = false;
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(111, 284);
+			this.label4.Location = new System.Drawing.Point(166, 437);
+			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(48, 19);
+			this.label4.Size = new System.Drawing.Size(72, 29);
 			this.label4.TabIndex = 4;
 			this.label4.Text = "Fórmula";
 			// 
@@ -102,35 +108,39 @@ namespace proyecto
 			// 
 			this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(271, 81);
+			this.pictureBox2.Location = new System.Drawing.Point(406, 125);
+			this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(292, 170);
+			this.pictureBox2.Size = new System.Drawing.Size(436, 259);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox2.TabIndex = 5;
 			this.pictureBox2.TabStop = false;
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(271, 294);
+			this.label5.Location = new System.Drawing.Point(406, 452);
+			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(154, 24);
+			this.label5.Size = new System.Drawing.Size(231, 37);
 			this.label5.TabIndex = 6;
 			this.label5.Text = "Si las Fuerzas (Σ F) es igual a cero";
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(271, 318);
+			this.label6.Location = new System.Drawing.Point(406, 489);
+			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(189, 39);
+			this.label6.Size = new System.Drawing.Size(284, 60);
 			this.label6.TabIndex = 7;
 			this.label6.Text = "Entonces el cambio en su velocidad con respecto al tiempo (dv / dt), también será" +
 			" igual a cero.";
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(488, 385);
+			this.button1.Location = new System.Drawing.Point(732, 592);
+			this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.Size = new System.Drawing.Size(112, 35);
 			this.button1.TabIndex = 8;
 			this.button1.Text = ">";
 			this.button1.UseVisualStyleBackColor = true;
@@ -138,9 +148,10 @@ namespace proyecto
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(12, 385);
+			this.button2.Location = new System.Drawing.Point(18, 592);
+			this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(75, 23);
+			this.button2.Size = new System.Drawing.Size(112, 35);
 			this.button2.TabIndex = 9;
 			this.button2.Text = "<";
 			this.button2.UseVisualStyleBackColor = true;
@@ -148,9 +159,9 @@ namespace proyecto
 			// 
 			// Fisica
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(575, 420);
+			this.ClientSize = new System.Drawing.Size(862, 646);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label6);
@@ -161,6 +172,7 @@ namespace proyecto
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.Name = "Fisica";
 			this.Text = "Fisica";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
